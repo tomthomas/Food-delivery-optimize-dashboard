@@ -1,19 +1,24 @@
-# :earth_americas: GDP dashboard template
+# Food Delivery Market Simulator
 
-A simple Streamlit app showing the GDP of different countries in the world.
+This project demonstrates a **Food Delivery Market Simulator** built with **Streamlit** and **Plotly**. The app simulates the effects of **price changes**, **promotions**, and **demand fluctuations** on **revenue** and **delivery times** using **real-world order data**.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://gdp-dashboard-template.streamlit.app/)
+## Features
 
-### How to run it on your own machine
+- **Price and Demand Simulations:** Adjust price and demand sliders to see their impact on revenue.
+- **Real-Time Data Analysis:** Using data on customer orders, delivery times, and costs.
+- **Visualization with Plotly:** Interactive charts for better insights.
+- **User Interface with Streamlit:** Simple and easy-to-use web interface.
 
-1. Install the requirements
+## Requirements
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+This project requires the following Python libraries:
+- **Streamlit**: For creating interactive web applications.
+- **Plotly**: For generating interactive plots and visualizations.
+- **Pandas**: For data processing.
+- **Numpy**: For numerical operations.
 
-2. Run the app
+You can install the necessary libraries by running:
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+```bash
+pip install -r requirements.txt
+```
