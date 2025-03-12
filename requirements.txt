@@ -1,6 +1,5 @@
 streamlit
 pandas
-pysqlite3
 scikit-learn
 numpy
 statsmodels
